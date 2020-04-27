@@ -22,6 +22,10 @@ int main() {
     //g++ 1_debugging_macro.cpp -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC
     //Solution 2:
     //uncomment two defines at the beginning of the file
+
+    //!!!IMPORTANT!!!
+    //Debug defines work only with c++ standard library
+    //if you develop your won library - use sanithizer
     return 0;
 }
 
