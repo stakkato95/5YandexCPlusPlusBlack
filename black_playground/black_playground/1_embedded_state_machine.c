@@ -51,7 +51,7 @@ int handleEvent(int currentState, int event) {
     return NO_STATE;
 }
 
-int main(int argc, const char * argv[]) {
+int main1(int argc, const char * argv[]) {
     int state = STATE_GAME_OVER;
     
     int newState = handleEvent(STATE_GAME_OVER, EVENT_START_NEW_GAME);
